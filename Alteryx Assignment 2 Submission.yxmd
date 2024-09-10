@@ -1,0 +1,662 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2024.1" RunE2="T">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\heman\OneDrive\Documents\Pranjali Practice\IIM SKILLS ALL DOCUMENTS\Alteryx\1st September 2024\Alteryx Assignment 2\Assignment_2.xlsx|||`Input1$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Assignment_2.xlsx
+Query=`Input1$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="OrderNumber" size="255" source="File: C:\Users\heman\OneDrive\Documents\Pranjali Practice\IIM SKILLS ALL DOCUMENTS\Alteryx\1st September 2024\Alteryx Assignment 2\Assignment_2.xlsx|||`Input1$`" type="V_String" />
+            <Field name="OrderDate" source="File: C:\Users\heman\OneDrive\Documents\Pranjali Practice\IIM SKILLS ALL DOCUMENTS\Alteryx\1st September 2024\Alteryx Assignment 2\Assignment_2.xlsx|||`Input1$`" type="Date" />
+            <Field name="Ship Date" source="File: C:\Users\heman\OneDrive\Documents\Pranjali Practice\IIM SKILLS ALL DOCUMENTS\Alteryx\1st September 2024\Alteryx Assignment 2\Assignment_2.xlsx|||`Input1$`" type="Date" />
+            <Field name="Due Date" source="File: C:\Users\heman\OneDrive\Documents\Pranjali Practice\IIM SKILLS ALL DOCUMENTS\Alteryx\1st September 2024\Alteryx Assignment 2\Assignment_2.xlsx|||`Input1$`" type="Date" />
+            <Field name="Customer Name Index" source="File: C:\Users\heman\OneDrive\Documents\Pranjali Practice\IIM SKILLS ALL DOCUMENTS\Alteryx\1st September 2024\Alteryx Assignment 2\Assignment_2.xlsx|||`Input1$`" type="Double" />
+            <Field name="Channel_ID" source="File: C:\Users\heman\OneDrive\Documents\Pranjali Practice\IIM SKILLS ALL DOCUMENTS\Alteryx\1st September 2024\Alteryx Assignment 2\Assignment_2.xlsx|||`Input1$`" type="Double" />
+            <Field name="Warehouse_ID" source="File: C:\Users\heman\OneDrive\Documents\Pranjali Practice\IIM SKILLS ALL DOCUMENTS\Alteryx\1st September 2024\Alteryx Assignment 2\Assignment_2.xlsx|||`Input1$`" type="Double" />
+            <Field name="Delivery Region Index" source="File: C:\Users\heman\OneDrive\Documents\Pranjali Practice\IIM SKILLS ALL DOCUMENTS\Alteryx\1st September 2024\Alteryx Assignment 2\Assignment_2.xlsx|||`Input1$`" type="Double" />
+            <Field name="Product Description Index" source="File: C:\Users\heman\OneDrive\Documents\Pranjali Practice\IIM SKILLS ALL DOCUMENTS\Alteryx\1st September 2024\Alteryx Assignment 2\Assignment_2.xlsx|||`Input1$`" type="Double" />
+            <Field name="Order Quantity" source="File: C:\Users\heman\OneDrive\Documents\Pranjali Practice\IIM SKILLS ALL DOCUMENTS\Alteryx\1st September 2024\Alteryx Assignment 2\Assignment_2.xlsx|||`Input1$`" type="Double" />
+            <Field name="Unit Price" source="File: C:\Users\heman\OneDrive\Documents\Pranjali Practice\IIM SKILLS ALL DOCUMENTS\Alteryx\1st September 2024\Alteryx Assignment 2\Assignment_2.xlsx|||`Input1$`" type="Double" />
+            <Field name="Unit Cost" source="File: C:\Users\heman\OneDrive\Documents\Pranjali Practice\IIM SKILLS ALL DOCUMENTS\Alteryx\1st September 2024\Alteryx Assignment 2\Assignment_2.xlsx|||`Input1$`" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\heman\OneDrive\Documents\Pranjali Practice\IIM SKILLS ALL DOCUMENTS\Alteryx\1st September 2024\Alteryx Assignment 2\Assignment_2.xlsx|||`Input2$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Assignment_2.xlsx
+Query=`Input2$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Customer Index" source="File: C:\Users\heman\OneDrive\Documents\Pranjali Practice\IIM SKILLS ALL DOCUMENTS\Alteryx\1st September 2024\Alteryx Assignment 2\Assignment_2.xlsx|||`Input2$`" type="Double" />
+            <Field name="Customer Names" size="255" source="File: C:\Users\heman\OneDrive\Documents\Pranjali Practice\IIM SKILLS ALL DOCUMENTS\Alteryx\1st September 2024\Alteryx Assignment 2\Assignment_2.xlsx|||`Input2$`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="282" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\heman\OneDrive\Documents\Pranjali Practice\IIM SKILLS ALL DOCUMENTS\Alteryx\1st September 2024\Alteryx Assignment 2\Assignment_2.xlsx|||`Input3$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Assignment_2.xlsx
+Query=`Input3$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Index" source="File: C:\Users\heman\OneDrive\Documents\Pranjali Practice\IIM SKILLS ALL DOCUMENTS\Alteryx\1st September 2024\Alteryx Assignment 2\Assignment_2.xlsx|||`Input3$`" type="Double" />
+            <Field name="Product Name" size="255" source="File: C:\Users\heman\OneDrive\Documents\Pranjali Practice\IIM SKILLS ALL DOCUMENTS\Alteryx\1st September 2024\Alteryx Assignment 2\Assignment_2.xlsx|||`Input3$`" type="V_String" />
+            <Field name="ProductCategory_ID" source="File: C:\Users\heman\OneDrive\Documents\Pranjali Practice\IIM SKILLS ALL DOCUMENTS\Alteryx\1st September 2024\Alteryx Assignment 2\Assignment_2.xlsx|||`Input3$`" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="162" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="OrderNumber" selected="True" />
+            <SelectField field="OrderDate" selected="True" />
+            <SelectField field="Ship Date" selected="True" />
+            <SelectField field="Due Date" selected="True" />
+            <SelectField field="Customer Name Index" selected="True" type="Int32" size="4" />
+            <SelectField field="Channel_ID" selected="True" type="Int32" size="4" />
+            <SelectField field="Warehouse_ID" selected="True" type="Int32" size="4" />
+            <SelectField field="Delivery Region Index" selected="True" type="Int32" size="4" />
+            <SelectField field="Product Description Index" selected="True" type="Int32" size="4" />
+            <SelectField field="Order Quantity" selected="True" type="Int32" size="4" />
+            <SelectField field="Unit Price" selected="True" />
+            <SelectField field="Unit Cost" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="162" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Customer Index" selected="True" type="Int32" size="4" />
+            <SelectField field="Customer Names" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="162" y="270" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Index" selected="True" type="Int32" size="4" />
+            <SelectField field="Product Name" selected="True" />
+            <SelectField field="ProductCategory_ID" selected="True" type="Int32" size="4" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="258" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="Customer Name Index" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="Customer Index" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Left_OrderNumber" selected="True" input="Left_" />
+                <SelectField field="Left_OrderDate" selected="True" input="Left_" />
+                <SelectField field="Left_Ship Date" selected="True" input="Left_" />
+                <SelectField field="Left_Due Date" selected="True" input="Left_" />
+                <SelectField field="Left_Channel_ID" selected="True" input="Left_" />
+                <SelectField field="Left_Product Description Index" selected="True" input="Left_" />
+                <SelectField field="Left_Order Quantity" selected="True" input="Left_" />
+                <SelectField field="Left_Unit Price" selected="True" input="Left_" />
+                <SelectField field="Left_Unit Cost" selected="True" input="Left_" />
+                <SelectField field="Right_Customer Names" selected="True" input="Right_" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="378" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="Product Description Index" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="Index" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Left_OrderNumber" selected="True" input="Left_" />
+                <SelectField field="Left_OrderDate" selected="True" input="Left_" />
+                <SelectField field="Left_Ship Date" selected="True" input="Left_" />
+                <SelectField field="Left_Due Date" selected="True" input="Left_" />
+                <SelectField field="Left_Channel_ID" selected="True" input="Left_" />
+                <SelectField field="Left_Order Quantity" selected="True" input="Left_" />
+                <SelectField field="Left_Unit Price" selected="True" input="Left_" />
+                <SelectField field="Left_Unit Cost" selected="True" input="Left_" />
+                <SelectField field="Left_Customer Names" selected="True" input="Left_" />
+                <SelectField field="Right_Product Name" selected="True" input="Right_" />
+                <SelectField field="Left_Warehouse_ID" selected="True" input="Left_" />
+                <SelectField field="Left_Delivery Region Index" selected="True" input="Left_" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="330" y="306" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\heman\OneDrive\Documents\Pranjali Practice\IIM SKILLS ALL DOCUMENTS\Alteryx\1st September 2024\Alteryx Assignment 2\chanel.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>chanel.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Channel" size="254" source="File: C:\Users\heman\OneDrive\Documents\Pranjali Practice\IIM SKILLS ALL DOCUMENTS\Alteryx\1st September 2024\Alteryx Assignment 2\chanel.csv" type="V_String" />
+            <Field name="Channel_ID" size="254" source="File: C:\Users\heman\OneDrive\Documents\Pranjali Practice\IIM SKILLS ALL DOCUMENTS\Alteryx\1st September 2024\Alteryx Assignment 2\chanel.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="414" y="306" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Channel_ID" selected="True" type="Int16" size="2" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="510" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="Channel_ID" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="Channel_ID" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Left_Channel_ID" selected="False" input="Left_" />
+                <SelectField field="Right_Channel_ID" selected="False" rename="Right_Channel_ID" input="Right_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="15">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="606" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="[Order Quantity]*[Unit Price]" field="Total Sales" size="8" type="Double" enabled="true" />
+            <FormulaField expression="[Order Quantity]*[Unit Cost]" field="Total Cost" size="8" type="Double" enabled="true" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Total Sales = [Order Quantity]*[Unit Price]
+Total Cost = [Order Quantity]*[Unit ...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="726" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="[Total Sales]-[Total Cost]" field="Net Profit" size="8" type="Double" enabled="true" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[Net Profit = [Total Sales]-[Total Cost]
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="17">
+      <GuiSettings>
+        <Position x="810" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="List Box (297)">Order Quantity=False,Unit Price=False,Unit Cost=False,Total Sales=False,Total Cost=False,Net Profit=True</Value>
+          <Value name="Radio Button (299)">False</Value>
+          <Value name="Numeric Up Down (298)">3</Value>
+          <Value name="Radio Button (301)">True</Value>
+          <Value name="Numeric Up Down (300)">3</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="OrderNumber" size="255" source="File: C:\Users\heman\OneDrive\Documents\Pranjali Practice\IIM SKILLS ALL DOCUMENTS\Alteryx\1st September 2024\Alteryx Assignment 2\Assignment_2.xlsx|||`Input1$`" type="V_String" />
+            <Field name="OrderDate" source="File: C:\Users\heman\OneDrive\Documents\Pranjali Practice\IIM SKILLS ALL DOCUMENTS\Alteryx\1st September 2024\Alteryx Assignment 2\Assignment_2.xlsx|||`Input1$`" type="Date" />
+            <Field name="Ship Date" source="File: C:\Users\heman\OneDrive\Documents\Pranjali Practice\IIM SKILLS ALL DOCUMENTS\Alteryx\1st September 2024\Alteryx Assignment 2\Assignment_2.xlsx|||`Input1$`" type="Date" />
+            <Field name="Due Date" source="File: C:\Users\heman\OneDrive\Documents\Pranjali Practice\IIM SKILLS ALL DOCUMENTS\Alteryx\1st September 2024\Alteryx Assignment 2\Assignment_2.xlsx|||`Input1$`" type="Date" />
+            <Field name="Order Quantity" source="File: C:\Users\heman\OneDrive\Documents\Pranjali Practice\IIM SKILLS ALL DOCUMENTS\Alteryx\1st September 2024\Alteryx Assignment 2\Assignment_2.xlsx|||`Input1$`" type="Int32" />
+            <Field name="Unit Price" source="File: C:\Users\heman\OneDrive\Documents\Pranjali Practice\IIM SKILLS ALL DOCUMENTS\Alteryx\1st September 2024\Alteryx Assignment 2\Assignment_2.xlsx|||`Input1$`" type="Double" />
+            <Field name="Unit Cost" source="File: C:\Users\heman\OneDrive\Documents\Pranjali Practice\IIM SKILLS ALL DOCUMENTS\Alteryx\1st September 2024\Alteryx Assignment 2\Assignment_2.xlsx|||`Input1$`" type="Double" />
+            <Field name="Customer Names" size="255" source="File: C:\Users\heman\OneDrive\Documents\Pranjali Practice\IIM SKILLS ALL DOCUMENTS\Alteryx\1st September 2024\Alteryx Assignment 2\Assignment_2.xlsx|||`Input2$`" type="V_String" />
+            <Field name="Product Name" size="255" source="File: C:\Users\heman\OneDrive\Documents\Pranjali Practice\IIM SKILLS ALL DOCUMENTS\Alteryx\1st September 2024\Alteryx Assignment 2\Assignment_2.xlsx|||`Input3$`" type="V_String" />
+            <Field name="Channel" size="254" source="File: C:\Users\heman\OneDrive\Documents\Pranjali Practice\IIM SKILLS ALL DOCUMENTS\Alteryx\1st September 2024\Alteryx Assignment 2\chanel.csv" type="V_String" />
+            <Field name="Total Sales" source="Formula: [Order Quantity]*[Unit Price]" type="Double" />
+            <Field name="Total Cost" source="Formula: [Order Quantity]*[Unit Cost]" type="Double" />
+            <Field name="Net Profit" source="Formula: [Total Sales]-[Total Cost]" type="Double" />
+            <Field name="Net Profit_Tile_Num" source="CrossTab:Header:FieldID:1:Sum:" type="Int64" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings Macro="MultiFieldBinning_v2.yxmc" />
+    </Node>
+    <Node ToolID="18">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="894" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="25">C:\Users\heman\OneDrive\Documents\Pranjali Practice\IIM SKILLS ALL DOCUMENTS\Alteryx\1st September 2024\Alteryx Assignment 2\Output 1.xlsx|||Sheet1</File>
+          <Passwords />
+          <Disable>False</Disable>
+          <FormatSpecificOptions>
+            <PreserveFormat>False</PreserveFormat>
+            <UNCLocal>False</UNCLocal>
+            <SkipFieldNames>False</SkipFieldNames>
+            <OutputOption>Create</OutputOption>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Output 1.xlsx
+Query=Sheet1</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="19">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="990" y="78" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="Net Profit_Tile_Num" action="GroupBy" rename="Net Profit_Tile_Num" />
+            <SummarizeField field="Net Profit" action="Max" rename="Max_Net Profit" />
+            <SummarizeField field="Net Profit" action="Min" rename="Min_Net Profit" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="20">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="1002" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="Customer Names" action="GroupBy" rename="Customer Names" />
+            <SummarizeField field="Product Name" action="Count" rename="Product Count" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="21">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="966" y="270" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="Product Name" action="GroupBy" rename="Product Name" />
+            <SummarizeField field="OrderDate" action="First" rename="First_OrderDate" />
+            <SummarizeField field="OrderDate" action="Last" rename="Last_OrderDate" />
+            <SummarizeField field="Order Quantity" action="Avg" rename="Avg_Order Quantity" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="22">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.CrossTab.CrossTab">
+        <Position x="822" y="258" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <GroupFields>
+            <Field field="Product Name" />
+          </GroupFields>
+          <HeaderField field="Channel" />
+          <DataField field="Net Profit" />
+          <Methods>
+            <Method method="Sum" />
+          </Methods>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Product Name" size="255" source="CrossTab:Group:Sum:" type="V_String" />
+            <Field name="Distributor" source="CrossTab:Header:Channel:Distributor:Sum:" type="Double" />
+            <Field name="Export" source="CrossTab:Header:Channel:Export:Sum:" type="Double" />
+            <Field name="Wholesale" source="CrossTab:Header:Channel:Wholesale:Sum:" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxCrossTab" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="8" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="8" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="10" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Join" />
+      <Destination ToolID="10" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Join" />
+      <Destination ToolID="14" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="Output" />
+      <Destination ToolID="14" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="Output" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="Join" />
+      <Destination ToolID="15" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="15" Connection="Output" />
+      <Destination ToolID="16" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="16" Connection="Output" />
+      <Destination ToolID="17" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="17" Connection="Output" />
+      <Destination ToolID="18" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="17" Connection="Output" />
+      <Destination ToolID="19" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="17" Connection="Output" />
+      <Destination ToolID="20" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="17" Connection="Output" />
+      <Destination ToolID="21" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="17" Connection="Output" />
+      <Destination ToolID="22" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <IsTemplate value="False" />
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Alteryx Assignment 2 Submission</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="a9a6ce65-0bbb-4fc6-b7b0-009a474f7121" />
+      <Telemetry>
+        <PreviousWorkflowId value="be66c4d0-10c9-4246-9e0d-7fa2f8f984dc" />
+        <OriginWorkflowId value="be66c4d0-10c9-4246-9e0d-7fa2f8f984dc" />
+      </Telemetry>
+      <PlatformWorkflowId value="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
